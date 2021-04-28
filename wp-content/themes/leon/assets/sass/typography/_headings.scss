@@ -1,0 +1,18 @@
+h5, h6 {
+	margin: 15px 0;
+}
+h1 {
+	margin: 15px 0 31px;
+}
+h2 {
+	margin: 15px 0 38px;
+}
+h3 {
+	margin: 15px 0 38px;
+}
+h4 {
+	margin: 15px 0 16px;
+	@media (max-width: 767px) {
+			margin-bottom: 10px;
+	}
+}

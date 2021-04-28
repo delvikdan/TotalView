@@ -1,0 +1,41 @@
+/* #Footer */
+.site-footer {
+	background-color: $footer_bg;
+}
+.footer-area-wrap {
+	background-color: $footer_widgets_bg;
+}
+/*
+.site-info a:hover {
+	color: $regular_text_color;
+}
+*/
+.site-footer .widget-about__tagline {
+	color: $invert_accent_color_1;
+}
+.site-footer.default .widget .widget-title {
+	color: $regular_link_hover_color;
+}
+.footer-area-wrap .swiper-carousel-container h5 a {
+	color: $regular_link_hover_color;
+}
+.footer-area-wrap .swiper-carousel-container h5 a:hover {
+	color: $regular_link_color;
+}
+.footer-area-wrap .tagcloud a {
+	color: $regular_link_hover_color;
+}
+.footer-area-wrap .posted-by__author:hover {
+	color: $regular_link_color;
+}
+.footer-area-wrap .post__tags a:hover {
+    color: $regular_text_color;
+}
+.footer-area-wrap .custom-posts .post__cats a {
+	color: $regular_link_hover_color;
+}
+.footer-area-wrap .custom-posts .btn:hover {
+	color: $regular_link_hover_color;
+	background-color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+}

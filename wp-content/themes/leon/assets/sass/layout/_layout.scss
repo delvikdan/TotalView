@@ -1,0 +1,43 @@
+.container {
+	&.site-header,
+	&.site-footer {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	&.site-content {
+		.content-layout-boxed & {
+			padding-left: 0;
+			padding-right: 0;
+			padding-top: 150px;
+		    @media (max-width: 980px) {
+			padding-top: 80px;
+			}
+			@media (max-width: 700px) {
+			padding-top: 40px;
+			}
+		}
+	}
+}
+
+.position-two-sidebars {
+	#primary {
+		order: 0;
+	}
+	#sidebar-primary {
+		order: 1;
+	}
+	#sidebar-secondary {
+		order: 2;
+	}
+	@include media-breakpoint-up(md) {
+		#primary {
+			order: 1;
+		}
+		#sidebar-primary {
+			order: 2;
+		}
+		#sidebar-secondary {
+			order: 0;
+		}
+	}
+}

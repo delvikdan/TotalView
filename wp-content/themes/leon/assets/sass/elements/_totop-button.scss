@@ -1,0 +1,33 @@
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 20px;
+	right: -999em;
+	overflow: hidden;
+	width: 58px;
+	height: 58px;
+	border-radius: 50%;
+	z-index: 999;
+	text-align: center;
+	@include transition(all 0.3s ease-out);
+	span {
+		display: none;
+	}
+	&:before{
+		@include material-icon();
+		width: 100%;
+		font-size: 32px;
+		line-height: 58px;
+		content: "arrow_upward";
+	}
+	&:focus {
+		outline: none;
+	}
+	@include media-breakpoint-up(sm) {
+		right: 20px;
+	}
+	@include media-breakpoint-up(md) {
+		bottom: 80px;
+	}
+}

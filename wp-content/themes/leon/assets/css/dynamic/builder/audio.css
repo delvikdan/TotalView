@@ -1,0 +1,40 @@
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module {
+	background: #888888;
+}
+
+#tm_builder_outer_content .tm_pb_audio_module_content h2 {
+	color: $invert_text_color;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-play button::before,
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-pause button::before,
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-volume-button button::before {
+	color: $invert_text_color;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-time-rail .mejs-time-total,
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-horizontal-volume-total {
+	background: $regular_accent_color_2;
+}
+
+#tm_builder_outer_content .tm_audio_container span.mejs-currenttime {
+	color: $regular_text_color;
+}
+
+#tm_builder_outer_content .tm_audio_container .mejs-controls .mejs-playpause-button button:before {
+	color: $invert_text_color;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-time-rail .mejs-time-handle,
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-horizontal-volume-handle {
+	background-color: $invert_text_color;
+}
+
+#tm_builder_outer_content .tm_audio_module_meta {
+	color: $invert_text_color;
+}
+
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-time-rail .mejs-time-current,
+#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-horizontal-volume-current {
+	background-color: $regular_link_color;
+}

@@ -1,0 +1,94 @@
+@charset "utf-8";
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+}
+
+
+code {
+	border: none;
+}
+
+blockquote {
+	position: relative;
+	margin: 0;
+	text-indent: 55px;
+	quotes: none;
+	padding: 10px 0 10px 0;
+	&.post-format-quote {
+		margin-top: 38px;
+	}
+	h4 {
+		margin-top: 0;
+	}
+	p {
+		margin: 0;
+		& + p {
+			margin-top: 1em;
+		}
+	}
+	h6 {
+		text-indent: 0;
+	}
+	cite {
+		text-indent: 0;
+		font-style: normal;
+		&:before {
+			content: "- ";
+		}
+	}
+	&:before {
+		content: "“" !important;
+		position: absolute;
+		font-size: 2em;
+		line-height: 1em;
+		top: 0;
+		left: 0;
+		text-indent: 0;
+		font-weight: 400;
+		@include media-breakpoint-up(lg) {
+			font-size: 167px;
+		}
+	}
+}
+
+hr {
+	background-color: $color__background-hr;
+	border: 0;
+	height: 1px;
+	margin: 1.5em 0;
+}
+
+a {
+	@include transition(all 0.3s ease-out);
+}
+
+/*--------------------------------------------------------------
+## Lists
+--------------------------------------------------------------*/
+@import "lists";
+
+/*--------------------------------------------------------------
+## Tables
+--------------------------------------------------------------*/
+@import "tables";
+
+/*--------------------------------------------------------------
+## Preloader
+--------------------------------------------------------------*/
+@import "page-preloader";
+
+/*--------------------------------------------------------------
+## ToTop button
+--------------------------------------------------------------*/
+@import "totop-button";

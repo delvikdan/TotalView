@@ -1,0 +1,93 @@
+/* #Button Appearance Styles (regular scheme) */
+.btn-default,
+.btn-primary,
+.btn-secondary,
+.btn-default:hover,
+.btn-primary:hover,
+.btn-secondary:hover {
+	color: $invert_link_hover_color;
+}
+.btn-secondary {
+	color: $regular_link_hover_color;
+}
+.btn-secondary:hover {
+	color: $regular_link_color;
+}
+.btn-primary {
+	color: $regular_link_hover_color;
+}
+.btn-primary i {
+	color: $invert_accent_color_2;
+}
+.btn-primary i:hover {
+	color: $regular_accent_color_1;
+}
+.btn-default {
+	background-color: $regular_link_color;
+	border: none;
+}
+.btn-default:hover {
+	background-color: $regular_link_hover_color;
+}
+.btn-default:focus {
+	box-shadow: none;
+}
+.btn-primary {
+	letter-spacing: .5px;
+	background: $regular_accent_color_1;
+	border: 2px solid $regular_accent_color_1;
+}
+.btn-primary:hover {
+	background: transparent;;
+}
+.btn-primary:focus {
+	box-shadow: none;
+}
+.btn-secondary {
+	background-color: $regular_accent_color_1;
+	border: 2px solid $regular_accent_color_1;
+}
+.btn-secondary:hover {
+	background-color: transparent;
+}
+.btn-secondary:focus {
+	box-shadow: none;
+}
+
+/* #Button Appearance Styles (invert scheme) */
+.invert .btn-default {
+	color: $regular_link_color;
+	background-color: $invert_link_color;
+	border: none;
+}
+.invert .btn-default:hover {
+	color: $regular_link_color;
+	background-color: $invert_link_hover_color;
+}
+.invert .btn-default:focus {
+	box-shadow: none;
+}
+.invert .btn-primary {
+	color: $regular_link_color;
+	background-color: $invert_accent_color_1;
+	border: none;
+}
+.invert .btn-primary:hover {
+	color: $regular_link_color;
+	background-color: @darken( $invert_accent_color_1, 10% );
+}
+.invert .btn-primary:focus {
+	box-shadow: none;
+}
+.invert .btn-secondary {
+	color: $regular_link_color;
+	background-color: $invert_accent_color_2;
+	border: none;
+}
+.invert .btn-secondary:hover {
+	color: $regular_link_color;
+	background-color: @darken( $invert_accent_color_2, 10% );
+}
+.invert .btn-secondary:focus {
+	box-shadow: none;
+}

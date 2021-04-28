@@ -1,0 +1,83 @@
+/* #Main Menu */
+.main-navigation .menu > li > a {
+	color: $invert_accent_color_1;
+}
+.main-navigation .menu > li > a:hover,
+.main-navigation .menu > li.menu-hover > a,
+.main-navigation .menu > li.current_page_item > a,
+.main-navigation .menu > li.current_page_ancestor > a,
+.main-navigation .menu > li.current-menu-item > a,
+.main-navigation .menu > li.current-menu-ancestor > a {
+	color: $regular_link_hover_color;
+}
+.main-navigation .menu > li > a:hover:after,
+.main-navigation .menu > li.menu-hover > a:after,
+.main-navigation .menu > li.current_page_item > a:after,
+.main-navigation .menu > li.current_page_ancestor > a:after,
+.main-navigation .menu > li.current-menu-item > a:after,
+.main-navigation .menu > li.current-menu-ancestor > a:after {
+	opacity: 1;
+}
+.main-navigation .sub-menu {
+	background: #f4f4f4;
+}
+.main-navigation ul ul a {
+	color: $regular_text_color;
+}
+.main-navigation .sub-menu > li > a:hover,
+.main-navigation .sub-menu > li.menu-hover > a,
+.main-navigation .sub-menu > li.current_page_item > a,
+.main-navigation .sub-menu > li.current_page_ancestor > a,
+.main-navigation .sub-menu > li.current-menu-item > a,
+.main-navigation .sub-menu > li.current-menu-ancestor > a {
+	color: $regular_accent_color_1;
+}
+.main-navigation .sub-menu > li.current-menu-item > a {
+	color: $regular_accent_color_1;
+}
+.main-navigation .sub-menu > li > a {
+    color: $invert_accent_color_2;
+    border-bottom: 1px solid #eee;
+}
+.main-navigation .sub-menu > li > a:hover, 
+.main-navigation .sub-menu > li.menu-hover > a {
+    color: $regular_link_color;
+}
+
+.main-navigation .menu > li::after {
+	color: $invert_accent_color_1;
+}
+.main-navigation .menu > li:hover::after {
+    color: $regular_link_hover_color;
+}
+.site-header .search-form[data-toggle=true] .search-form__submit:hover {
+	color: $regular_accent_color_1;
+}
+.main-navigation .sub-menu li.menu-item-has-children::after {
+	color: $invert_accent_color_1;
+}
+.menu-toggle {
+	color: $invert_accent_color_1;
+}
+.menu-toggle:hover {
+	color: #101010;
+}
+
+/* #Footer Menu */
+.footer-menu__items li.current-menu-item a,
+.footer-menu__items li.current_page_item a {
+	color: $regular_text_color;
+}
+.main-navigation .menu > li .sub-menu-toggle::before {
+	color: $regular_accent_color_1;
+}
+@media (max-width: 767px) {
+	.main-navigation .sub-menu > li > a{
+		color: $invert_accent_color_1;
+	}
+	.main-navigation .sub-menu > li.current-menu-ancestor > a,
+	.main-navigation .sub-menu > li.current-menu-item > a {
+		color: $color: $regular_accent_color_1;
+	}
+
+}

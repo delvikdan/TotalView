@@ -1,0 +1,30 @@
+.site-branding {
+		display: flex;
+		align-self: center;
+		@media (max-width: 767px) {
+				flex-direction: column;
+		}
+}
+.site-logo {
+	margin: 0;
+	line-height: 1.2em;
+	&__link {
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 2px;
+		&:focus {
+			outline: none;
+		}
+	}
+}
+.site-description {
+	font-size: .9rem;
+	font-weight: 300;
+	letter-spacing:-.8px;
+	margin: 0 0 0 5px;
+	align-self: flex-end;
+	@media (max-width: 767px) {
+		align-self: center;
+	}
+}

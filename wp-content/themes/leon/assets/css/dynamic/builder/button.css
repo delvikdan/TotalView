@@ -1,0 +1,69 @@
+#tm_builder_outer_content .tm_pb_button{
+	background: $regular_link_color;
+	color: $invert_text_color;
+	border-color: $regular_link_color;
+}
+#tm_builder_outer_content .tm_builder_inner_content .tm_pb_button,
+#tm_builder_outer_content .tm_builder_inner_content .more-button {
+	color: $invert_text_color;
+}
+
+#tm_builder_outer_content .tm_pb_button:hover,
+#tm_builder_outer_content .tm_pb_promo .tm_pb_newsletter_button:hover,
+#tm_builder_outer_content .more-button:hover {
+	background: $regular_link_color;
+	color: $invert_text_color;
+}
+
+#tm_builder_outer_content .tm_pb_slide_description .tm_pb_button{
+	background: $regular_link_color;
+	border-color: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_slide_description .tm_pb_button:hover{
+	background: transparent !important;
+}
+
+#tm_builder_outer_content .tm_pb_button:hover{
+	border-color: $regular_link_color;
+	background:  transparent;
+	color: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_button:hover:after{
+	color: $regular_accent_color_1;
+}
+
+#tm_builder_outer_content .tm_pb_button:after{
+	color: $regular_accent_color_2;
+}
+
+#tm_builder_outer_content .tm_builder_inner_content .tm_pb_button.custom_btn_small, .tm_pb_button.custom_btn_small {
+	background: $regular_link_color;
+	color: $invert_accent_color_1;
+	border-color: $regular_link_color;
+}
+#tm_builder_outer_content .tm_builder_inner_content .tm_pb_button.custom_btn_small, .tm_pb_button.custom_btn_small:hover {
+	color: $regular_accent_color_1;
+	border-color: $regular_link_color;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content .tm_pb_button.custom_btn_small:hover {
+	color: $regular_link_color;
+}
+#tm_builder_outer_content .tm_builder_inner_content .tm_pb_button.custom_btn_small {
+	color: $regular_link_hover_color;
+}
+
+.about-author_btn_box .about-author_btn {
+	background: $regular_link_color;
+	border-color: $regular_link_color;
+	color: $invert_link_color;
+}
+
+.about-author_btn_box .about-author_btn:hover {
+	background: transparent;
+	color: $regular_link_color;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_builder_inner_content .more-button.custom_btn_small.custom_icon:before {
+	color: $regular_accent_color_1;
+}

@@ -1,0 +1,42 @@
+.widget {
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #eeeeee;
+	&:last-child {
+		border-bottom: none;
+		&:after {
+			display: none;
+		}
+	}
+	&-title {
+		margin: 0 0 36px;
+
+		@include media-breakpoint-up(lg) {
+
+		}
+	}
+	& + .widget {
+		margin-top: 0;
+
+		@include media-breakpoint-up(md) {
+			margin-top: 0;
+		}
+	}
+	.sidebar-primary &,
+	.sidebar-secondary &,
+	.footer-area & {
+		margin-top: 0;
+
+		@include media-breakpoint-up(md) {
+			margin-top: 0;
+		}
+	}
+	&:last-child {
+		.widget-area & {
+			margin-bottom: 30px;
+		}
+	}
+	select {
+		max-width: 100%;
+	}
+}

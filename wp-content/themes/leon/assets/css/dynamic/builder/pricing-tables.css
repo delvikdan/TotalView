@@ -1,0 +1,18 @@
+#tm_builder_outer_content .tm_pb_pricing_heading {
+	  background: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_featured_table .tm_pb_pricing_heading {
+	background-color: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_pricing li:before {
+	color: $invert_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_pricing .tm_pb_dollar_sign {
+	color: $invert_link_color;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_pb_pricing_table > div {
+	background: $invert_accent_color_3;
+}

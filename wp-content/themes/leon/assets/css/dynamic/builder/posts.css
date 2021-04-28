@@ -1,0 +1,93 @@
+
+#tm_builder_outer_content .tm-pb-spinner-double-bounce .tm-pb-double-bounce1,
+#tm_builder_outer_content .tm-pb-spinner-double-bounce .tm-pb-double-bounce2 {
+	background: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_post h4 a {
+	color: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_post h4 a:hover {
+	color: $regular_accent_color_2;
+}
+
+#tm_builder_outer_content .tm_pb_posts a.more-link {
+	border-color: $regular_link_color;
+	background: $regular_link_color;
+	color: $invert_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_posts a.more-link:hover {
+	background: transparent;
+}
+
+#tm_builder_outer_content .tm_pb_module .tm-posts_listing .tm-posts_item .tm-posts_item_meta a {
+	color: $regular_text_color;
+}
+
+#tm_builder_outer_content .tm_pb_module .tm-posts_listing .tm-posts_item .tm-posts_item_meta a:hover {
+	color: $regular_link_color;
+}
+
+#tm_builder_outer_content .posted-by a,
+#tm_builder_outer_content .post-date a,
+#tm_builder_outer_content .post-comments a {
+	color: $regular_text_color;
+}
+
+#tm_builder_outer_content .posted-by a:hover,
+#tm_builder_outer_content .post-date a:hover,
+#tm_builder_outer_content .post-comments a:hover {
+		color: $invert_link_hover_color;
+}
+
+#tm_builder_outer_content .tm_pb_module .post-meta.post__cats a {
+	color: $invert_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_post .post__tags__header a {
+	color: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_post .post__tags__header a:hover {
+	color: $invert_link_color;
+}
+
+#tm_builder_outer_content .tm-posts_listing .tm-posts_item .tm-posts_item_title a {
+	color: $invert_text_color;
+}
+
+#tm_builder_outer_content .tm-posts_listing .tm-posts_item .tm-posts_item_title a:hover {
+	color: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm-posts_item .btn {
+	color: $invert_text_color;
+	background: $regular_link_color;
+	border-color: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm-posts_item .btn:hover {
+	background: transparent;
+}
+
+#tm_builder_outer_content .tm_pb_post h2 a:hover {
+	color: $regular_accent_color_1;
+}
+
+.custom-posts .post__cats a {
+	color: $invert_accent_color_2;
+}
+
+.custom-posts .post__cats a:hover {
+	color: $regular_link_color;
+}
+
+.custom-posts h6 a {
+	color: $regular_link_color;
+}
+
+.custom-posts h6 a:hover {
+	color: $regular_text_color;
+}
